@@ -30,4 +30,4 @@ for (int i = 0; i < 1000; i++)
     }));
 }
 
-Task.WaitAll(tasks);
+Task.WaitAll(tasks.ToArray());
